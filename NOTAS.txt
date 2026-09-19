@@ -1,0 +1,40 @@
+**To reed a document csv from R we need the following command
+
+datos <- read.csv("name_file.csv")
+
+if our header is out of size compared to our data, for example:
+Numero de ciudades: 8
+X,Y
+86,37
+17,94
+3,65
+48,43
+78,70
+17,55
+62,91
+78,91
+
+**To take the value of the header, we need to do: 
+
+linea <- readLines("ciudades.csv", n=1)
+n <- as.numeric(sub("Numero de ciudades :","",linea))
+
+Where n is the line where our header is. 
+
+**Following with our header, to skip the header (it is needed if you are going to read the data of your table), you need to do: 
+
+datos <- read.csv("ciudades.csv", skip = 1)
+
+Where skip are the lines we need to jump. 
+
+**To show or save a column in a variable, we do: 
+
+X <- datos$X
+Y <- datos$Y
+
+Be careful with the column names, to see the right name, you can do: 
+
+names(datos)
+
+
+
