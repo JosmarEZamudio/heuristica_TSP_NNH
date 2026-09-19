@@ -1,10 +1,10 @@
-*********************************************************************************HEURISTICA EN R***************************************************************
+*****************************HEURISTICA EN R************************************
 Importante, es una heurística relativamente sencilla, funciona de la siguiente manera:
 
 
 **IMPORTANTE: Primero, si descargaste este modesto simulador, en una consola de R, localizar la carpeta o el lugar donde se quiera trabajar y establecer dirección de trabajo.**
 
-> setwd("direccion/ejemplo/heuristica_TSP_NNH"
+> setwd("direccion/ejemplo/heuristica_TSP_NNH")
 
 Después, crear una variable con el nombre del archivo donde estén tus coordenadas, se recomienda que el archivo sea de la forma: primera línea el numero de ciudades (cabecera), segunda línea nombre de las columnas, lo restante son los datos, checa este ejemplo: 
 
@@ -13,14 +13,14 @@ X,Y
 86,37
 17,94
 
-**NOTA: este no es un generador, puedes crearlo por ti mismo en cualquier otro lenguaje (C es muy fácil, java, Python, en el mismo R).**
+**NOTA: este no es un generador, puedes crearlo por ti mismo en cualquier otro lenguaje (C es muy fácil, java, Python, en el mismo R, etc.).**
 Otra variable a declarar, es en la ciudad que quieres empezar, si ya sabes el numero de tus ciudades, lógicamente ingresa una que este en ese rango. 
 Entonces tendremos: 
 
 > nombre <- "ciudades.csv"
 > inicio <- 7 
 
-Para llamar a la función es muy sencillo, se carga con la siguiente instrucción: 
+Para llamar a la función es muy sencillo, primero llamar al script: 
 
 > source("principal.R") 
 
