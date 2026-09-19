@@ -26,7 +26,7 @@ Para llamar a la función es muy sencillo, primero llamar al script:
 
 Y ejecutar la función a la cual le pasaremos los parámetros nombre e inicio, en ese orden. 
 
-> heurística(nombre,inicio)
+> heuristica(nombre,inicio)
 
 Seria todo, dependiendo de tu números de ciudades será la espera de resultado(por lo general en datos muy grandes de varios millones para arriba). 
 
