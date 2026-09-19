@@ -1,7 +1,7 @@
 *****************************HEURISTICA EN R************************************
 Importante, es una heurística relativamente sencilla, funciona de la siguiente manera:
 
-
+**IMPORTANTE: Trabaja solo con archivos del tipo ".csv"
 **IMPORTANTE: Primero, si descargaste este modesto simulador, en una consola de R, localizar la carpeta o el lugar donde se quiera trabajar y establecer dirección de trabajo.**
 
 > setwd("direccion/ejemplo/heuristica_TSP_NNH")
@@ -28,9 +28,9 @@ Y ejecutar la función a la cual le pasaremos los parámetros nombre e inicio, e
 
 > heurística(nombre,inicio)
 
-Seria todo, dependiendo de tu números de ciudades será la espera de resultado(por lo general en datos muy grandes de varias millones para arriba). 
+Seria todo, dependiendo de tu números de ciudades será la espera de resultado(por lo general en datos muy grandes de varios millones para arriba). 
 
-Al finalizar indicara la ruta optima al igual que la distancia recorrida, también de manera automática se graficara la ruta, enseñando el recorrido que se hace. 
+Al finalizar indicara la ruta optima al igual que la distancia recorrida, también de manera automática se graficará la ruta, enseñando el recorrido que se hace. 
 
 **Por ahora no cuenta con salida con un archivo .csv, se agregará despues. **
 
